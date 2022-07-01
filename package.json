@@ -1,7 +1,7 @@
 {
   "name": "lib-react-hans-test",
   "description": "Two test React components",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": [
