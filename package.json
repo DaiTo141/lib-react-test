@@ -1,7 +1,7 @@
 {
   "name": "lib-react-hans-test",
   "description": "Two test React components",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": [
@@ -15,6 +15,7 @@
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
     "lodash": "^4.17.21",
+    "np": "^7.6.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.1",
@@ -23,7 +24,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
-    "bu": "npm run build && npm pu",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
